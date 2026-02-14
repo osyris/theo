@@ -33,7 +33,7 @@
   .card { background:var(--card); border:1px solid var(--border); border-radius:0.8rem; padding:1.2rem; transition:transform 0.2s,box-shadow 0.2s,border-color 0.2s; display:flex; gap:1rem; position:relative; cursor:pointer; }
   .card:hover { transform:translateY(-2px); box-shadow:0 6px 30px rgba(230,57,70,0.08); border-color:rgba(230,57,70,0.3); }
 
-  .card-img { width:75px; min-width:75px; height:95px; border-radius:0.8rem; overflow:hidden; flex-shrink:0; background:#f5f3f0; display:flex; align-items:center; justify-content:center; }
+  .card-img { position:relative; width:75px; min-width:75px; height:95px; border-radius:0.8rem; overflow:hidden; flex-shrink:0; background:#f5f3f0; display:flex; align-items:center; justify-content:center; }
   .card-img img { width:100%; height:100%; object-fit:contain; }
   .card-img .initials { font-family:'Bebas Neue',sans-serif; font-size:1.4rem; color:#fff; width:100%; height:100%; display:flex; align-items:center; justify-content:center; text-shadow:0 0 10px rgba(230,57,70,0.5); }
 
@@ -55,7 +55,9 @@
   .tag-musk { background:var(--tag-musk); color:#8878b0; }
   .tag-male { background:rgba(80,120,180,0.15); color:#6090c0; }
   .card-source { font-size:0.65rem; color:#bbb; border-top:1px solid var(--border); padding-top:0.3rem; margin-top:auto; }
-  .fav-badge { color:var(--accent); font-size:0.85rem; margin-right:0.3rem; }
+  .fav-ribbon { position:absolute; top:0; left:0; width:3rem; height:3rem; overflow:hidden; z-index:2; pointer-events:none; }
+  .fav-ribbon::before { content:'♥'; position:absolute; top:0.35rem; left:0.2rem; font-size:0.7rem; color:#fff; z-index:3; text-align:center; width:1.2rem; }
+  .fav-ribbon::after { content:''; position:absolute; top:-0.5rem; left:-1.2rem; width:3rem; height:1.5rem; background:var(--accent); transform:rotate(-45deg); box-shadow:0 2px 6px rgba(0,0,0,0.3); }
 
   /* Modal — Fragrantica style */
   .modal-overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.45); z-index:100; backdrop-filter:blur(4px); justify-content:center; align-items:flex-start; padding:2rem 1rem; overflow-y:auto; }
@@ -449,17 +451,17 @@ function render() {
   grid.innerHTML = filtered.map(p => {
     const tagHTML = p.tags.map(t=>`<span class="tag tag-${t}">${tagLabels[t]||t}</span>`).join('');
     const priceHTML = p.price ? `<span class="card-price">${p.price}</span>` : '';
-    const favHTML = p.fav ? '<span class="fav-badge">♥</span>' : '';
+    const favHTML = p.fav ? '<div class="fav-ribbon"></div>' : '';
 
     return `
       <div class="card" onclick="openModal(${p.idx})">
-        <div class="card-img">${imgHTML(p)}</div>
+        <div class="card-img">${favHTML}${imgHTML(p)}</div>
         <div class="card-body">
           <div class="card-header">
             <div class="card-brand">${p.brand}</div>
             ${priceHTML}
           </div>
-          <div class="card-name">${favHTML}${p.name}</div>
+          <div class="card-name">${p.name}</div>
           ${p.notes&&p.notes!=='—'?`<div class="card-notes">${p.notes}</div>`:''}
           ${p.desc&&p.desc!=='—'?`<div class="card-desc">${p.desc}</div>`:''}
           <div class="card-tags">${tagHTML}</div>
