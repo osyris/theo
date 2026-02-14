@@ -8,7 +8,7 @@
       "floral"
     ],
     "source": "parftelier",
-    "fav": true,
+    "fav": false,
     "price": "~250€",
     "img": "https://gazelle.up.railway.app/pages/perfume/img/delina.jpg",
     "pyramid": {
@@ -170,7 +170,8 @@
     "perfumer": "Calice Becker",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Фруктово-гурманский"
+    "family": "Фруктово-гурманский",
+    "fav": false
   },
   {
     "brand": "Kilian",
@@ -259,7 +260,8 @@
     "perfumer": "Calice Becker",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Цветочно-свежий"
+    "family": "Цветочно-свежий",
+    "fav": false
   },
   {
     "brand": "Memo",
@@ -326,7 +328,8 @@
     "perfumer": "Alienor Massenet",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Восточно-цветочный"
+    "family": "Восточно-цветочный",
+    "fav": false
   },
   {
     "brand": "Kinckydoe",
@@ -346,7 +349,8 @@
       "base": "Белый мускус, сандал, амбра"
     },
     "gender": "Ж",
-    "family": "Цветочно-восточный"
+    "family": "Цветочно-восточный",
+    "fav": false
   },
   {
     "brand": "Phlur",
@@ -426,7 +430,8 @@
     "perfumer": "Carlos Viñals",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Мускусный"
+    "family": "Мускусный",
+    "fav": false
   },
   {
     "brand": "Phlur",
@@ -447,7 +452,8 @@
     },
     "concentration": "Body mist",
     "gender": "Унисекс",
-    "family": "Гурманский"
+    "family": "Гурманский",
+    "fav": false
   },
   {
     "brand": "Phlur",
@@ -467,7 +473,8 @@
     },
     "concentration": "Body mist",
     "gender": "Унисекс",
-    "family": "Гурманский"
+    "family": "Гурманский",
+    "fav": false
   },
   {
     "brand": "Diptyque",
@@ -490,7 +497,8 @@
     "perfumer": "Olivia Giacobetti",
     "concentration": "EDT",
     "gender": "Унисекс",
-    "family": "Древесно-зелёный"
+    "family": "Древесно-зелёный",
+    "fav": false
   },
   {
     "brand": "YSL",
@@ -512,7 +520,8 @@
     "year": 2019,
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Восточно-пряный"
+    "family": "Восточно-пряный",
+    "fav": false
   },
   {
     "brand": "Electimuss",
@@ -534,7 +543,8 @@
     "year": 2025,
     "concentration": "Extrait",
     "gender": "Унисекс",
-    "family": "Фруктово-гурманский"
+    "family": "Фруктово-гурманский",
+    "fav": false
   },
   {
     "brand": "Juliette Has A Gun",
@@ -557,7 +567,8 @@
     "perfumer": "Romano Ricci",
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Фруктово-цветочный"
+    "family": "Фруктово-цветочный",
+    "fav": false
   },
   {
     "brand": "Amouage",
@@ -578,7 +589,8 @@
     "year": 2024,
     "concentration": "Extrait",
     "gender": "Унисекс",
-    "family": "Восточный"
+    "family": "Восточный",
+    "fav": false
   },
   {
     "brand": "Room 1015",
@@ -600,7 +612,8 @@
     "year": 2019,
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Фруктово-свежий"
+    "family": "Фруктово-свежий",
+    "fav": false
   },
   {
     "brand": "Ella K",
@@ -622,7 +635,8 @@
     "perfumer": "Сосье Лепасье (автор Pure Musc for Her)",
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Цветочно-гурманский"
+    "family": "Цветочно-гурманский",
+    "fav": false
   },
   {
     "brand": "Tiziana Terenzi",
@@ -643,7 +657,8 @@
     "year": 2024,
     "concentration": "Extrait",
     "gender": "Унисекс",
-    "family": "Фруктовый"
+    "family": "Фруктовый",
+    "fav": false
   },
   {
     "brand": "Juliette Has A Gun",
@@ -665,7 +680,8 @@
     "perfumer": "Romano Ricci",
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Фруктово-мускусный"
+    "family": "Фруктово-мускусный",
+    "fav": false
   },
   {
     "brand": "Montale",
@@ -686,7 +702,8 @@
     },
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Фруктово-восточный"
+    "family": "Фруктово-восточный",
+    "fav": false
   },
   {
     "brand": "Theodoros Kalotinis",
@@ -707,7 +724,8 @@
     },
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Гурманский"
+    "family": "Гурманский",
+    "fav": false
   },
   {
     "brand": "Versace",
@@ -729,7 +747,8 @@
     "year": 2022,
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Фруктово-цветочный"
+    "family": "Фруктово-цветочный",
+    "fav": false
   },
   {
     "brand": "D&G",
@@ -751,7 +770,8 @@
     "perfumer": "Marie Salamagne",
     "concentration": "EDT",
     "gender": "Унисекс",
-    "family": "Фруктовый"
+    "family": "Фруктовый",
+    "fav": false
   },
   {
     "brand": "Tom Ford",
@@ -774,7 +794,8 @@
     "perfumer": "—",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Фруктово-гурманский"
+    "family": "Фруктово-гурманский",
+    "fav": false
   },
   {
     "brand": "MFK",
@@ -797,7 +818,8 @@
     "perfumer": "Francis Kurkdjian",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Гурманский"
+    "family": "Гурманский",
+    "fav": false
   },
   {
     "brand": "Orto Parisi",
@@ -820,7 +842,8 @@
     "perfumer": "Alessandro Gualtieri",
     "concentration": "Parfum",
     "gender": "Унисекс",
-    "family": "Фруктово-свежий"
+    "family": "Фруктово-свежий",
+    "fav": false
   },
   {
     "brand": "Marc-Antoine Barrois",
@@ -842,7 +865,8 @@
     "year": 2024,
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Цветочно-восточный"
+    "family": "Цветочно-восточный",
+    "fav": false
   },
   {
     "brand": "Montale",
@@ -863,7 +887,8 @@
     },
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Гурманско-восточный"
+    "family": "Гурманско-восточный",
+    "fav": false
   },
   {
     "brand": "Commodity",
@@ -883,7 +908,8 @@
     },
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Гурманский"
+    "family": "Гурманский",
+    "fav": false
   },
   {
     "brand": "Byredo",
@@ -906,7 +932,8 @@
     "perfumer": "Ben Gorham & Jérôme Epinette",
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Чистый, альдегидный"
+    "family": "Чистый, альдегидный",
+    "fav": false
   },
   {
     "brand": "Jo Malone",
@@ -956,7 +983,8 @@
       }
     ],
     "rating": 3.7,
-    "votes": 650
+    "votes": 650,
+    "fav": false
   },
   {
     "brand": "New Notes",
@@ -971,7 +999,8 @@
     "img": "https://gazelle.up.railway.app/pages/perfume/img/erotika-minimale.jpg",
     "concentration": "Extrait",
     "gender": "Унисекс",
-    "family": "Восточный"
+    "family": "Восточный",
+    "fav": false
   },
   {
     "brand": "Optico Italy",
@@ -990,7 +1019,8 @@
       "base": "Серая амбра, белый мускус, амбретта"
     },
     "gender": "Унисекс",
-    "family": "Цитрусовый"
+    "family": "Цитрусовый",
+    "fav": false
   },
   {
     "brand": "Veronique Gabai",
@@ -1011,7 +1041,8 @@
     },
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Цветочно-древесный"
+    "family": "Цветочно-древесный",
+    "fav": false
   },
   {
     "brand": "Molinard",
@@ -1032,7 +1063,8 @@
     },
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Древесно-цитрусовый"
+    "family": "Древесно-цитрусовый",
+    "fav": false
   },
   {
     "brand": "Jusbox",
@@ -1048,7 +1080,8 @@
     "img": "https://gazelle.up.railway.app/pages/perfume/img/sisters-b4-misters.jpg",
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Гурманско-цветочный"
+    "family": "Гурманско-цветочный",
+    "fav": false
   },
   {
     "brand": "Fugazzi",
@@ -1070,7 +1103,8 @@
     "year": 2021,
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Мускусно-древесный"
+    "family": "Мускусно-древесный",
+    "fav": false
   },
   {
     "brand": "Fil D'Or",
@@ -1091,7 +1125,8 @@
     },
     "concentration": "Extrait",
     "gender": "Унисекс",
-    "family": "Восточно-гурманский"
+    "family": "Восточно-гурманский",
+    "fav": false
   },
   {
     "brand": "Paradis Des Sens",
@@ -1106,7 +1141,8 @@
     "img": "https://gazelle.up.railway.app/pages/perfume/img/valhalla.jpg",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Восточный"
+    "family": "Восточный",
+    "fav": false
   },
   {
     "brand": "Le Labo",
@@ -1157,7 +1193,8 @@
       }
     ],
     "rating": 3.75,
-    "votes": 7200
+    "votes": 7200,
+    "fav": false
   },
   {
     "brand": "Louis Vuitton",
@@ -1209,7 +1246,8 @@
       }
     ],
     "rating": 3.95,
-    "votes": 6800
+    "votes": 6800,
+    "fav": false
   },
   {
     "brand": "MFK",
@@ -1261,7 +1299,8 @@
       }
     ],
     "rating": 3.88,
-    "votes": 4500
+    "votes": 4500,
+    "fav": false
   },
   {
     "brand": "Roja",
@@ -1285,7 +1324,8 @@
     "perfumer": "Roja Dove",
     "concentration": "Parfum",
     "gender": "М",
-    "family": "Свежий древесный"
+    "family": "Свежий древесный",
+    "fav": false
   },
   {
     "brand": "Ex Nihilo",
@@ -1307,7 +1347,8 @@
     },
     "concentration": "EDP",
     "gender": "М",
-    "family": "Древесно-пряный"
+    "family": "Древесно-пряный",
+    "fav": false
   },
   {
     "brand": "Escentric Molecules",
@@ -1330,7 +1371,8 @@
     "perfumer": "Geza Schoen",
     "concentration": "EDT",
     "gender": "Унисекс",
-    "family": "Молекулярный"
+    "family": "Молекулярный",
+    "fav": false
   },
   {
     "brand": "Ex Nihilo",
@@ -1352,7 +1394,8 @@
     },
     "concentration": "EDP",
     "gender": "М",
-    "family": "Свежий мускусный"
+    "family": "Свежий мускусный",
+    "fav": false
   },
   {
     "brand": "Creed",
@@ -1375,7 +1418,8 @@
     "perfumer": "Olivier Creed",
     "concentration": "EDP",
     "gender": "М",
-    "family": "Свежий зелёный"
+    "family": "Свежий зелёный",
+    "fav": false
   },
   {
     "brand": "Escentric Molecules",
@@ -1398,7 +1442,8 @@
     "perfumer": "Geza Schoen",
     "concentration": "EDT",
     "gender": "Унисекс",
-    "family": "Молекулярный"
+    "family": "Молекулярный",
+    "fav": false
   },
   {
     "brand": "Chloé",
@@ -1419,7 +1464,8 @@
     },
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Древесно-цветочный"
+    "family": "Древесно-цветочный",
+    "fav": false
   },
   {
     "brand": "Vilhelm Parfumerie",
@@ -1441,7 +1487,8 @@
     "year": 2015,
     "concentration": "EDP",
     "gender": "М",
-    "family": "Древесно-кожаный"
+    "family": "Древесно-кожаный",
+    "fav": false
   },
   {
     "brand": "Zarkoperfume",
@@ -1463,7 +1510,8 @@
     "perfumer": "Zarko Ahlmann Pavlov",
     "concentration": "EDP",
     "gender": "Ж",
-    "family": "Молекулярно-цветочный"
+    "family": "Молекулярно-цветочный",
+    "fav": false
   },
   {
     "brand": "Escentric Molecules",
@@ -1487,7 +1535,8 @@
     "perfumer": "Geza Schoen",
     "concentration": "EDT",
     "gender": "Унисекс",
-    "family": "Молекулярный"
+    "family": "Молекулярный",
+    "fav": false
   },
   {
     "brand": "Byredo",
@@ -1509,7 +1558,8 @@
     "perfumer": "Jérôme Epinette",
     "concentration": "EDP",
     "gender": "Унисекс",
-    "family": "Древесно-мускусный"
+    "family": "Древесно-мускусный",
+    "fav": false
   },
   {
     "brand": "Jo Malone",
@@ -1533,7 +1583,8 @@
     "perfumer": "Christine Nagel",
     "concentration": "Cologne",
     "gender": "Унисекс",
-    "family": "Древесно-морской"
+    "family": "Древесно-морской",
+    "fav": false
   },
   {
     "brand": "Born To Stand Out",
@@ -1555,7 +1606,8 @@
     "year": 2022,
     "concentration": "Extrait",
     "gender": "Унисекс",
-    "family": "Восточно-гурманский"
+    "family": "Восточно-гурманский",
+    "fav": false
   },
   {
     "brand": "Clive Christian",
@@ -1578,6 +1630,7 @@
     "year": 2023,
     "concentration": "Parfum",
     "gender": "Унисекс",
-    "family": "Цветочно-восточный"
+    "family": "Цветочно-восточный",
+    "fav": false
   }
 ]
