@@ -1,4 +1,31 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "c4f14341-29df-45f3-ba07-0928465892d6",
+      "agentId": "main",
+      "name": "Daily git backup",
+      "enabled": true,
+      "createdAtMs": 1771077062421,
+      "updatedAtMs": 1771077062421,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run daily git backup: cd /data && git add -A && git commit -m \"Daily backup $(date +%Y-%m-%d)\" && git push origin main. If nothing changed, just confirm no changes. Do NOT announce anything to the user — just do it silently.",
+        "timeoutSeconds": 60
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1771124400000
+      }
+    }
+  ]
 }

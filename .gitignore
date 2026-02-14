@@ -35,3 +35,4 @@ Thumbs.db
 # === Temp files ===
 .openclaw/workspace/tmp-*
 .openclaw/cron/jobs.json.bak
+skills/scrapingbee/.env
