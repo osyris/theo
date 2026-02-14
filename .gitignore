@@ -1,0 +1,37 @@
+# === OpenClaw secrets & runtime ===
+.openclaw/openclaw.json
+.openclaw/credentials/
+.openclaw/agents/*/agent/auth-profiles.json
+.openclaw/identity/
+.openclaw/devices/
+.openclaw/telegram/
+
+# === Browser (cache, cookies, sessions) ===
+.openclaw/browser/
+
+# === Runtime/temp ===
+.openclaw/media/
+.openclaw/delivery-queue/
+.openclaw/subagents/
+.openclaw/sessions/
+.openclaw/agents/*/sessions/
+.openclaw/update-check.json
+.openclaw/canvas/
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# === Env & config backups ===
+.env
+.openclaw/openclaw.json.bak*
+.openclaw/filebrowser.db
+
+# === Cron run logs ===
+.openclaw/cron/runs/
+
+# === Temp files ===
+.openclaw/workspace/tmp-*
+.openclaw/cron/jobs.json.bak
