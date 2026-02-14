@@ -8,7 +8,7 @@
       "floral"
     ],
     "source": "parftelier",
-    "fav": false,
+    "fav": true,
     "price": "~250€",
     "img": "https://gazelle.up.railway.app/pages/perfume/img/delina.jpg",
     "pyramid": {
@@ -261,7 +261,7 @@
     "concentration": "EDP",
     "gender": "Унисекс",
     "family": "Цветочно-свежий",
-    "fav": false
+    "fav": true
   },
   {
     "brand": "Memo",
