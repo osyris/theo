@@ -55,7 +55,7 @@
   .tag-musk { background:var(--tag-musk); color:#8878b0; }
   .tag-male { background:rgba(80,120,180,0.15); color:#6090c0; }
   .card-source { font-size:0.65rem; color:#bbb; border-top:1px solid var(--border); padding-top:0.3rem; margin-top:auto; }
-  .fav-badge { position:absolute; top:0.6rem; right:0.6rem; color:var(--accent); font-size:0.85rem; }
+  .fav-badge { color:var(--accent); font-size:0.85rem; margin-right:0.3rem; }
 
   /* Modal — Fragrantica style */
   .modal-overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.45); z-index:100; backdrop-filter:blur(4px); justify-content:center; align-items:flex-start; padding:2rem 1rem; overflow-y:auto; }
@@ -453,14 +453,13 @@ function render() {
 
     return `
       <div class="card" onclick="openModal(${p.idx})">
-        ${favHTML}
         <div class="card-img">${imgHTML(p)}</div>
         <div class="card-body">
           <div class="card-header">
             <div class="card-brand">${p.brand}</div>
             ${priceHTML}
           </div>
-          <div class="card-name">${p.name}</div>
+          <div class="card-name">${favHTML}${p.name}</div>
           ${p.notes&&p.notes!=='—'?`<div class="card-notes">${p.notes}</div>`:''}
           ${p.desc&&p.desc!=='—'?`<div class="card-desc">${p.desc}</div>`:''}
           <div class="card-tags">${tagHTML}</div>
