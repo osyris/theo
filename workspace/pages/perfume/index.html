@@ -270,7 +270,7 @@ const accordColors = {
   'молекулярный':'#a0b0c0','чистый, альдегидный':'#c0c8d0',
 };
 
-function openModal(idx) {
+window.openModal = function(idx) {
   const p = perfumes[idx];
   const grad = gradients[hashCode(p.brand+p.name) % gradients.length];
   const tagHTML = p.tags.map(t=>`<span class="tag tag-${t}">${tagLabels[t]||t}</span>`).join('');
@@ -430,7 +430,7 @@ function openModal(idx) {
   document.body.style.overflow = 'hidden';
 }
 
-function closeModal() {
+window.closeModal = function() {
   modalOverlay.classList.remove('open');
   document.body.style.overflow = '';
 }
